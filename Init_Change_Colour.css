@@ -1,0 +1,142 @@
+body{
+				background-color:#f4f4f4;
+				padding:0;
+				margin:0;
+				font-family:"Baloo Da 2";
+				position:absolute;
+				top:10%;
+				
+				}
+.all{
+				color:#399CBD;
+				height:90vh;
+				width:100vw;
+				display:flex;
+				flex-direction:column;
+				justify-content:space-between;
+				}
+.profile{
+				font-size:25px;
+				width:45%;
+				padding:30px;
+				font-weight:bold;
+				}
+.flexdown{
+				background-colo:pink;
+				padding-top:0px;
+				width:95%;
+				display:flex;
+				justify-content: space-between;
+				}
+button{
+				width:40%;
+				color:white;
+				background-color:#399CBD;
+				border-radius:0px 20px;
+				font-size:15px;
+				font-family:"Baloo Da 2";
+				font-weight:bold;
+				outline:none;
+				}
+.awesome{
+				color:#399CBD;
+				font-weight:bold;
+				margin:3pc auto .5pc .5pc;
+				}
+.one{
+				font-weight:bold;
+				font-size:20px;
+				colo:white;
+				margin:0pc auto 10pc auto;
+				}
+.profile{
+				width:40%;
+				margin:auto;
+				background-colo:red;
+				text-align:center;
+				}
+.mylogo{
+				width:100%;
+				}
+.logo{
+				width:70%;
+				height:70%;
+				text-align:center;
+				border-radius:50%;
+				
+				}
+.dropdown{
+				background-color:#399CBD;
+				position:relative;
+				padding:15px;
+				border:3px solid grey;
+				border-radius:20px 0px;
+				color:white;
+				}
+.content{
+				position:absolute;
+				text-align:center;
+				width:85%;
+				border-radius:10px;
+				box-shadow:-1px 1px 5px grey;
+				z-index:1;
+				background-color:#f4f4f4;
+				overflow:hidden;
+				font-size:15px;
+				padding:10px;
+				color:grey;
+				opacity:0;
+		   transition: opacity 2.5s;
+				}
+.dropdown:hover .content{
+				opacity:1;
+				}		
+span{
+				font-family:Parisienne;
+				}				
+
+				
+/*MEDIA QUERY BEGINS */
+				
+@media (min-width:767px){
+.all{
+				background-color:#aa00ff;
+				right:0px;
+				width:50%;
+				height:10%;
+				margin:-5% 50%;
+				transform:scale(1,1);
+				padding:20px;
+				border:5px solid #5900cc;
+				border-radius:0px 70px;
+				}
+.mylogo{
+				font-size:50px;
+				color:white;
+				}
+.logo{
+				width:50%;
+				height:50%;
+				text-align:center;
+				border-radius:50%;
+				}				
+.awesome{
+				color:white;
+				}				
+.one11{
+				color:#5900cc;
+				}									
+.next{
+				color:#5900cc;
+				}											
+.dropdown{
+				background-color:white;
+				}			
+button{
+				background-color:white;
+				}			
+				
+	}
+
+
+/* MEDIA QUERY ENDS */

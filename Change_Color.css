@@ -1,0 +1,122 @@
+body{
+				margin:0;
+				padding:0;
+				overflow-x:hidden;
+				overflow-y:hidden;
+				font-family:"Baloo Da 2"
+				}
+.my_click_button{
+				width:80%;
+				padding:11px;
+				z-index: 3;
+				position: absolute;
+				margin-top:20px;
+				border-radius:0px 20px;
+				outline:none;
+				transition:1s ease;
+				color:cyan;
+				}
+
+.second{
+				position:absolute;
+				width:60%;
+				height:50%;
+				top:50%;
+				left:20%;
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+				}
+.colourcode{
+				background-color:pink;
+				padding:5px;
+				border:2px dashed grey;
+				transition:1s ease;
+				}
+.code{
+				margin-top:80px;
+				padding:8px;
+				background-color:#aa00ff;
+				border-radius:5px;
+				color:white;
+				transition:1s ease;
+				}
+.code2{
+				margin-top:15px;
+				padding:8px;
+				background-color:#aa00ff;
+				border-radius:5px;
+				z-index:1;
+				color:white;
+				transition:1s ease;
+				}
+.colourcode2{
+				background-color:pink;
+				padding:5px;
+				border:2px dashed grey;
+				z-index:1;
+				transition:1s ease;
+				}
+.first111{
+				z-index:10;
+				color:#5900cc;
+				font-size:30px;
+				font-weight: bold;	
+				}
+.a{
+				text-align:center;
+				font-size:50px;
+				background:-webkit-linear-gradient(30deg,cyan,magenta,yellow,blue);
+				-webkit-background-clip:text;
+				-webkit-text-fill-color:transparent;
+				transition:1s ease;
+				margin-top:15px;
+				}
+.a:hover{
+				transform:scale(1.1,1.1);
+				}
+.my_click_button:hover{
+				transform:scale(1.1,1.1);
+				}
+.code:hover{
+				transform:scale(1.1,1.1);
+				}
+
+.code2:hover{
+				transform:scale(1.1,1.1);
+				}
+.colourcode:hover{
+				transform:scale(1.1,1.1);
+				}
+.colourcode2:hover{
+				transform:scale(1.1,1.1);
+				}
+body{
+				width:100vw;
+				height:50vh;
+				}
+
+
+/* MEDIA QUERY BEGINS */
+
+@media (min-width:768px){
+.a{
+      font-size:5pc;
+      }
+.second{
+      top:40%;
+      }
+.my_click_button{
+				width:45%;
+				padding:11px;
+				z-index: 3;
+				position: absolute;
+				margin-top:10px;
+				border-radius:5px;
+				outline:none;
+				transition:1s ease;
+				}									
+}
+
+/* MEDIA QUERY ENDS */
+
